@@ -37,7 +37,7 @@ ul{
     list-style-type: none;
     color: white;
 }
-li{
+header li{
     display: inline;
     margin-right: 20px;
 }
@@ -98,26 +98,80 @@ p{
 }
 .last{
     position: relative;
-    margin: 50px 400px;
+    margin: 50px 300px;
     text-align: center;
-    width: 40vw;
+    width: 30vw;
     height: 30vh;
 }
 .last>h2{
     left: 50px;
 }
-.last>.b1{
+.purple{
     background-color: #8ea1e1;
     color: white;
+}
+.last>.b1{
     font-size: large;
     position: absolute;
-    left: 25%;
+    left: 33%;
     top: 50%;
     transform: translate (-50%, -50%);
 }
-/* .last>img{
+footer{
+    padding: 30px 0;
+    width: 100%;
+    background-color: #23272a;
+}
+footer *{
+    position: relative;
+    color: white;
+    float: left;
+}
+footer h1{
+    font-size: xx-large;
+    margin-bottom: 15px;
+}
+.coll{
+    position: relative;
+    margin-right: 8%;
+    height: 50vh;
+    width: 8%;
+    line-height: 2;
+
+}
+.coll1{
+    width: 20%;
+    line-height: normal;
+}
+.coll1>img{
+    width: 10%;
+}
+select{
+    border: 0;
+    background-color: #23272a;
+    margin-right: 50%;
+    margin-bottom: 15px;
+}
+.coll1>i{
+    width: 5px;
+    margin-right: 20px;
+}
+hr{
+    border-color: #4a5882;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.head{
+    color: #7289da;
+}
+footer .b1{
+    float: right;
+}
+/* .footer{
+    width: 100%;
     position: absolute;
-    left: 70%;
-    top: 50%;
-    transform: translate (-50%, -50%);
+    bottom: 0;
+    left: 0;
+    height: 580.5px;
+    background-color: #23272a;
 } */
