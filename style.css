@@ -33,7 +33,6 @@
     opacity: 1;
     top: 605vh;
     /* bottom: 0; */
-    /* Bottom non funziona ///////////////////////////////////*/
     height: 90vh;
 }
 /* background */
@@ -169,7 +168,7 @@ footer h1{
     position: relative;
     margin-right: 8%;
     height: 70vh;
-    width: 8%;
+    width: 9%;
     line-height: 2;
 
 }
